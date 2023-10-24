@@ -1,11 +1,11 @@
-/*=============== GOOGLE FONTS ===============*/
+/*GOOGLE FONTS LINK*/
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Poppins:wght@400;500;700&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
+/* VARIABLES CSS */
 :root {
   --header-height: 3.5rem;
 
-  /*========== Colors ==========*/
+  /* Colors*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(195, 100%, 30%);
   --gradient-color: linear-gradient(90deg,
@@ -16,7 +16,7 @@
   --white-color: #fff;
   --body-color: hsl(210, 55%, 85%);
 
-  /*========== Font and typography ==========*/
+  /* Font and typography */
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --second-font: "Lora", serif;
@@ -24,17 +24,17 @@
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
 
-  /*========== Font weight ==========*/
+  /* Font weight */
   --font-regular: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== z index ==========*/
+  /*z index*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/*========== Responsive typography ==========*/
+/*Responsive typography */
 @media screen and (min-width: 1024px) {
   :root {
     --biggest-font-size: 4rem;
@@ -43,7 +43,7 @@
   }
 }
 
-/*=============== BASE ===============*/
+/*BASE*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -72,7 +72,7 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/* REUSABLE CSS CLASSES */
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -82,7 +82,7 @@ img {
   overflow: hidden; /* For animation */
 }
 
-/*=============== HEADER & NAV ===============*/
+/*= HEADER & NAV */
 
 .header{
     position: fixed;
@@ -179,7 +179,7 @@ img {
 }
 
 
-/*=============== HOME ===============*/
+/* HOME*/
 .home{
   position: relative;
 }
@@ -253,7 +253,7 @@ img {
   left: -7rem;
   bottom: 0;
 }
-/*=============== MEDIA QUERIES ===============*/
+/* MEDIA QUERIES */
 /* For small devices */
 @media screen and (max-width: 305px) {
   .container{
